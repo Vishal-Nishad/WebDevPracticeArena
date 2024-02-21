@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>self details form</title>
+</head>
+<body>
+    <form action="google.com">
+        <label for="usern">Name:</label>
+        <input type="text" id="usern" name="usern" placeholder="username">
+        <br>
+        <label for="sex">Sex:</label>
+        <!-- <input type="radio" id="sex" name="sex" value="sex"> -->
+        
+        <input type="radio" name="sex" value="Male">
+        Male
+        <input type="radio" name="sex" value="Female">
+        Female
+        <br>
+        <label for="country">Country</label>
+        <select name="countr" id="country" >
+            <option selected>Select an option</option>
+            <option value="ind">India</option>
+            <option value="pak">Pakistan</option>
+            <option value="usa">america</option>
+
+        </select>
+        <br>
+        <Label for="msg">Message</Label>
+        <br>
+        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="enter your message here"></textarea>
+        <br>
+        <input type="checkbox" name="checkbox" id="ckbox">
+        
+        <label for="ckbox">Subscribe?</label>
+        <br>        
+        <input type="button" value="Submit">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
