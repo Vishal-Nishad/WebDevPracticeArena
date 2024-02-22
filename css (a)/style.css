@@ -1,0 +1,28 @@
+h1,h2,h3{
+    color: #b92b27;
+}
+#login{
+    color: white;
+    background-color: #b92b27;
+}
+#signup{
+    color: white;
+    background-color: #b92b27;
+}
+.upvote{
+    color: white;
+    background-color: blueviolet;
+}
+#myid p{
+    color: green;
+}
+/* psuedo class */
+button:hover{
+    color: aqua;
+    background-color: black;
+}
+input [type="radio"]:checked + label{
+    color: darkmagenta;
+    background-color: ghostwhite;
+    font-weight: 400;
+}
