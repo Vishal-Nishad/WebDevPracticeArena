@@ -1,0 +1,26 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: green;
+    display: inline-block;
+}
+#Relative{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    background-color: yellow;
+}
+#Absolute{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: yellow;
+}
+#Fixed{
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    background-color: yellow;
+}
